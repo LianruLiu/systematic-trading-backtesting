@@ -1,0 +1,118 @@
+{
+  "universe": [
+    "AAPL",
+    "MSFT",
+    "NVDA",
+    "AMZN",
+    "META",
+    "GOOGL",
+    "AVGO",
+    "JPM",
+    "UNH",
+    "JNJ",
+    "XOM",
+    "WMT",
+    "MA",
+    "V",
+    "PG",
+    "HD",
+    "CVX",
+    "LLY",
+    "MRK",
+    "ABBV"
+  ],
+  "benchmark": "SPY",
+  "data_range": [
+    "2015-01-02",
+    "2026-10-30"
+  ],
+  "cost_bps_one_way": 10,
+  "risk_free_rate_assumed": 0.0,
+  "SPY_buy_hold": {
+    "in_sample_2015_2019": {
+      "annualized_return": 0.116,
+      "annualized_volatility": 0.1343,
+      "sharpe_rf0": 0.864,
+      "max_drawdown": -0.1935,
+      "monthly_win_rate": 0.767,
+      "annualized_turnover": 0.0,
+      "n_days": 1257
+    },
+    "out_of_sample_2020_2026": {
+      "annualized_return": 0.1494,
+      "annualized_volatility": 0.1996,
+      "sharpe_rf0": 0.749,
+      "max_drawdown": -0.3372,
+      "monthly_win_rate": 0.659,
+      "annualized_turnover": 0.0,
+      "n_days": 1717
+    },
+    "full": {
+      "annualized_return": 0.1352,
+      "annualized_volatility": 0.175,
+      "sharpe_rf0": 0.773,
+      "max_drawdown": -0.3372,
+      "monthly_win_rate": 0.704,
+      "annualized_turnover": 0.0,
+      "n_days": 2974
+    }
+  },
+  "MA_crossover_SPY_50_200": {
+    "in_sample_2015_2019": {
+      "annualized_return": 0.0713,
+      "annualized_volatility": 0.1024,
+      "sharpe_rf0": 0.696,
+      "max_drawdown": -0.137,
+      "monthly_win_rate": 0.583,
+      "annualized_turnover": 0.932,
+      "n_days": 1257
+    },
+    "out_of_sample_2020_2026": {
+      "annualized_return": 0.0967,
+      "annualized_volatility": 0.1675,
+      "sharpe_rf0": 0.577,
+      "max_drawdown": -0.3372,
+      "monthly_win_rate": 0.537,
+      "annualized_turnover": 0.932,
+      "n_days": 1717
+    },
+    "full": {
+      "annualized_return": 0.0859,
+      "annualized_volatility": 0.1436,
+      "sharpe_rf0": 0.598,
+      "max_drawdown": -0.3372,
+      "monthly_win_rate": 0.556,
+      "annualized_turnover": 0.932,
+      "n_days": 2974
+    }
+  },
+  "Momentum_top5_12minus1": {
+    "in_sample_2015_2019": {
+      "annualized_return": 0.2339,
+      "annualized_volatility": 0.1768,
+      "sharpe_rf0": 1.323,
+      "max_drawdown": -0.3167,
+      "monthly_win_rate": 0.6,
+      "annualized_turnover": 3.744,
+      "n_days": 1258
+    },
+    "out_of_sample_2020_2026": {
+      "annualized_return": 0.3575,
+      "annualized_volatility": 0.2741,
+      "sharpe_rf0": 1.304,
+      "max_drawdown": -0.3303,
+      "monthly_win_rate": 0.659,
+      "annualized_turnover": 3.744,
+      "n_days": 1717
+    },
+    "full": {
+      "annualized_return": 0.3038,
+      "annualized_volatility": 0.2378,
+      "sharpe_rf0": 1.277,
+      "max_drawdown": -0.3303,
+      "monthly_win_rate": 0.634,
+      "annualized_turnover": 3.744,
+      "n_days": 2975
+    }
+  }
+}
